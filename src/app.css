@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ActionBar {
+  background-color: #65adf1;
+  color: white;
+}
+
+.story-card {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(128, 90, 213, 0.1);
+}
+
+.header-stat {
+  box-shadow: 0 4px 8px rgba(128, 90, 213, 0.1);
+  border: 1px solid rgba(128, 90, 213, 0.1);
+}
+
+Button.-primary {
+  android-elevation: 2;
+  android-dynamic-elevation-offset: 1;
+  font-weight: 600;
+  font-size: 14;
+  text-transform: none;
+}
+
+Button.-primary[size="small"] {
+  font-size: 12;
+  font-weight: 500;
+}
+
+textField {
+  placeholder-color: #a1a1aa;
+  color: #1e1b4b;
+  font-size: 16;
+}
